@@ -5,10 +5,6 @@
     $app = new Silex\Application();
 
     $app->get("/", function() {
-        return "Home";
-    });
-
-    $app->get("/new_rectangle", function() {
         return "
         <!DOCTYPE html>
         <html>
